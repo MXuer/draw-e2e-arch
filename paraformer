@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T08:00:38.619Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="MY8te9A5KoT4q1zYTEgW" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T08:07:10.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Z_CJtMODg4PGc-5Rlg9z" version="20.8.16" type="github">
   <diagram name="第 1 页" id="Y8uX7A2yKgLAIbHNZ9BD">
     <mxGraphModel dx="1247" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="tRDZ-nvzKBnYXFmpUzy1-137" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="320" y="655" width="760" height="230" as="geometry" />
+          <mxGeometry x="220" y="650" width="860" height="235" as="geometry" />
         </mxCell>
         <mxCell id="tRDZ-nvzKBnYXFmpUzy1-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tRDZ-nvzKBnYXFmpUzy1-1" target="tRDZ-nvzKBnYXFmpUzy1-5">
           <mxGeometry relative="1" as="geometry" />
@@ -224,10 +224,10 @@
             <mxPoint x="230" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tRDZ-nvzKBnYXFmpUzy1-94" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;fontColor=#000000;elbow=vertical;" edge="1" parent="1" source="tRDZ-nvzKBnYXFmpUzy1-117">
+        <mxCell id="tRDZ-nvzKBnYXFmpUzy1-94" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;fontColor=#000000;elbow=vertical;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="540.35" y="640" as="sourcePoint" />
-            <mxPoint x="530" y="600" as="targetPoint" />
+            <mxPoint x="577" y="690" as="sourcePoint" />
+            <mxPoint x="577" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tRDZ-nvzKBnYXFmpUzy1-107" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;fontColor=#000000;elbow=vertical;" edge="1" parent="1">
@@ -285,7 +285,7 @@
           <mxGeometry x="620" y="760" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tRDZ-nvzKBnYXFmpUzy1-131" value="$$E_s$$" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="535" y="650" width="30" height="30" as="geometry" />
+          <mxGeometry x="575" y="650" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tRDZ-nvzKBnYXFmpUzy1-132" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;strokeColor=#FFD966;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tRDZ-nvzKBnYXFmpUzy1-131" target="tRDZ-nvzKBnYXFmpUzy1-136">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -300,7 +300,25 @@
           <mxGeometry x="655" y="700" width="421.26" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tRDZ-nvzKBnYXFmpUzy1-140" value="sampler" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;strokeColor=#82b366;arcSize=38;fillColor=#d5e8d4;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="335" y="655" width="90" height="40" as="geometry" />
+          <mxGeometry x="970" y="660" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tRDZ-nvzKBnYXFmpUzy1-141" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;fontColor=#000000;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="471" y="690" as="sourcePoint" />
+            <mxPoint x="471" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tRDZ-nvzKBnYXFmpUzy1-142" value="$$GLM(Y, Y^{&#39;})$$" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="465.49" y="655" width="101.51" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tRDZ-nvzKBnYXFmpUzy1-143" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;strokeColor=#FFD966;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tRDZ-nvzKBnYXFmpUzy1-142" target="tRDZ-nvzKBnYXFmpUzy1-144">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="685.04" as="sourcePoint" />
+            <mxPoint x="290" y="705.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tRDZ-nvzKBnYXFmpUzy1-144" value="tokens random selected from target tokens" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="700" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
