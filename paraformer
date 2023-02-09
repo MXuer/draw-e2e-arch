@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T11:25:55.423Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Oh_vwBbxR4CBcWwC9PsW" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T11:32:58.277Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="mLqjfXc9-KOuMMngkQSf" version="20.8.16" type="github">
   <diagram name="第 1 页" id="Y8uX7A2yKgLAIbHNZ9BD">
     <mxGraphModel dx="1395" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="1" shadow="0">
       <root>
@@ -768,6 +768,18 @@
         </mxCell>
         <mxCell id="tRDZ-nvzKBnYXFmpUzy1-343" value="threshold for detecting acoustic boundary" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1120" y="998.5" width="120" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="tRDZ-nvzKBnYXFmpUzy1-344" value="$$\times{0.3}$$" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="715.5" y="802" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tRDZ-nvzKBnYXFmpUzy1-345" value="$$\times{0.5}$$" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="769.5" y="803" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tRDZ-nvzKBnYXFmpUzy1-347" value="$$\times{0.2}$$" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="816.5" y="802" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tRDZ-nvzKBnYXFmpUzy1-348" value="$$\times{0.1}$$" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="860.5" y="802" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
