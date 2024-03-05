@@ -1,0 +1,82 @@
+<mxfile host="Electron" modified="2024-01-04T03:29:04.054Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="EgnWo2hX7REMMtd3TSSZ" version="21.1.2" type="device">
+  <diagram name="qtfm" id="-aWjwwPA3RrWr-dT-8xU">
+    <mxGraphModel dx="1026" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6xAoRTvH4-galhdFTb6P-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dSUcLiSMygPTwyMZbexx-1" target="6xAoRTvH4-galhdFTb6P-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dSUcLiSMygPTwyMZbexx-1" value="蜻蜓FM爬取数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="105" y="138" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dSUcLiSMygPTwyMZbexx-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dSUcLiSMygPTwyMZbexx-3" target="dSUcLiSMygPTwyMZbexx-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dSUcLiSMygPTwyMZbexx-3" value="Music/Noise Detection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="320" y="275" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6xAoRTvH4-galhdFTb6P-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6xAoRTvH4-galhdFTb6P-1" target="dSUcLiSMygPTwyMZbexx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6xAoRTvH4-galhdFTb6P-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6xAoRTvH4-galhdFTb6P-2" value="wav" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="60" y="305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6xAoRTvH4-galhdFTb6P-3" value="mp3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="130" y="305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6xAoRTvH4-galhdFTb6P-4" value="m4a" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="200" y="305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6xAoRTvH4-galhdFTb6P-6" value="LONG-AUDIOS" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="260" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6xAoRTvH4-galhdFTb6P-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="544" y="235" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dSUcLiSMygPTwyMZbexx-5" value="后处理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="6xAoRTvH4-galhdFTb6P-14" vertex="1">
+          <mxGeometry width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6xAoRTvH4-galhdFTb6P-9" value="后处理" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="6xAoRTvH4-galhdFTb6P-14">
+          <mxGeometry x="20" y="10" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6xAoRTvH4-galhdFTb6P-10" value="一分钟的数据删掉" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6xAoRTvH4-galhdFTb6P-9">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6xAoRTvH4-galhdFTb6P-11" value="持续性的音乐删除" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6xAoRTvH4-galhdFTb6P-9">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6xAoRTvH4-galhdFTb6P-12" value="人声占比低的数据删除" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6xAoRTvH4-galhdFTb6P-9">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6xAoRTvH4-galhdFTb6P-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="6xAoRTvH4-galhdFTb6P-14" source="dSUcLiSMygPTwyMZbexx-5" target="dSUcLiSMygPTwyMZbexx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6xAoRTvH4-galhdFTb6P-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dSUcLiSMygPTwyMZbexx-5" target="6xAoRTvH4-galhdFTb6P-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6xAoRTvH4-galhdFTb6P-25" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="780" y="242.5" width="160" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="6xAoRTvH4-galhdFTb6P-15" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="6xAoRTvH4-galhdFTb6P-25">
+          <mxGeometry x="-5" y="15" width="160" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="6xAoRTvH4-galhdFTb6P-16" value="wav" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="6xAoRTvH4-galhdFTb6P-25">
+          <mxGeometry x="30" y="22.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6xAoRTvH4-galhdFTb6P-21" value="wav" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="6xAoRTvH4-galhdFTb6P-25">
+          <mxGeometry x="40" y="32.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6xAoRTvH4-galhdFTb6P-22" value="wav" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="6xAoRTvH4-galhdFTb6P-25">
+          <mxGeometry x="50" y="42.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6xAoRTvH4-galhdFTb6P-23" value="wav" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="6xAoRTvH4-galhdFTb6P-25">
+          <mxGeometry x="60" y="52.5" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
